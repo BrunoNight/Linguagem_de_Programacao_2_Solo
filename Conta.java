@@ -44,6 +44,12 @@ public class Conta
     public void setListaPedidos(ArrayList <PedidoCliente> l) {
         this.listaPedidos = l;
     }
+
+    public void addPedido(PedidoCliente p) {
+        if (p != null) {
+            this.listaPedidos.add(p);
+        }
+    }
     
     public float fecharConta(Cliente c) {
         float somaPedidos = 0.00f;
