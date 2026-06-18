@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class PedidoCliente {
+public class PedidoCliente
+{
     private int id;
     private ArrayList <ItemPedido> itensPedido;
     private String statusPedido;
